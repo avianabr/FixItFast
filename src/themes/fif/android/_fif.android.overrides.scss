@@ -1,0 +1,10 @@
+@import "../common/fif.common.overrides";
+
+// overrides file
+.demo-nav-tabs {
+  text-transform: uppercase;
+}
+
+.oj-hybrid-applayout-header-icon-back.flip-to-right::before {
+  transform: scale(-1, 1);
+}

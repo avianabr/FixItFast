@@ -1,0 +1,5 @@
+@import "../common/fif.common.overrides";
+
+.oj-hybrid-applayout-header-icon-back.flip-to-right::before {
+  transform: scale(-1, 1);
+}
