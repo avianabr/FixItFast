@@ -15,26 +15,20 @@ define(['jquery', 'ojs/ojfilmstrip', 'ojs/ojpagingcontrol'], function($) {
 
     self.steps = [
       {
-        'title': 'dashboard',
-        'description': 'Review a dashboard of your current incidents.',
+        'title': 'painel',
+        'description': 'Informações sobre os recursos que você abriu.',
         'imgSrc': 'css/images/dashboard_image@2x.png',
         'color': '#4493cd'
       },
       {
-        'title': 'maps',
-        'description': 'Find locations and directions to your customers.',
-        'imgSrc': 'css/images/maps_image@2x.png',
-        'color': '#FFD603'
-      },
-      {
-        'title': 'incidents',
-        'description': 'Check on details about the incident including seeing feed updates and photos.',
+        'title': 'recursos',
+        'description': 'Abra e acompanhe seus recursos rapidamente.',
         'imgSrc': 'css/images/incidents_image@2x.png',
         'color': '#E5003E'
       },
       {
-        'title': 'customers',
-        'description': 'Have your customers information easily available.',
+        'title': 'condutores',
+        'description': 'Indique o correto condutor infrator de uma infração.',
         'imgSrc': 'css/images/customers_image@2x.png',
         'color': '#009636'
       }

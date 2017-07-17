@@ -24,8 +24,11 @@
         </div>
 
         <!-- ko if: !$parent.editMode() -->
-        <h2 id="name" data-bind="text: firstName() + ' ' + lastName()" class="demo-profile-name"></h2>
-        <div id="title" data-bind="text: role" class="demo-profile-title oj-text-sm"></div>
+        <!--h2 id="name" data-bind="text: firstName() + ' ' + lastName()" class="demo-profile-name"></h2-->
+         <h2 id="name" class="demo-profile-name">Adriano Amaral</h2>
+       
+        <!--div id="title" data-bind="text: role" class="demo-profile-title oj-text-sm"></div-->
+        <div id="title" class="demo-profile-title oj-text-sm">Cientista de Dados</div>
         <!-- /ko -->
 
         <!-- ko if: $parent.editMode() -->
@@ -41,7 +44,7 @@
             <div class="oj-flex-bar demo-profile-line-wrapper">
 
               <div class="demo-profile-item-content oj-flex-bar-middle">
-                <label id="firstNameLabel">First Name</label>
+                <label id="firstNameLabel">Nome</label>
                 <input id="firstNameInput" aria-labelledby="firstNameLabel" data-bind="ojComponent: {component: 'ojInputText', value: firstName}">
               </div>
             </div>
@@ -49,7 +52,7 @@
             <div class="oj-flex-bar demo-profile-line-wrapper">
 
               <div class="demo-profile-item-content oj-flex-bar-middle">
-                <label id="lastNameLabel">Last Name</label>
+                <label id="lastNameLabel">Sobrenome</label>
                 <input id="lastNameInput" aria-labelledby="lastNameLabel" data-bind="ojComponent: {component: 'ojInputText', value: lastName}">
               </div>
             </div>
@@ -69,7 +72,7 @@
                 </div>
               </div>
               <div class="demo-profile-item-content oj-flex-bar-middle">
-                <label id="mobileLabel">Mobile</label>
+                <label id="mobileLabel">Celular</label>
                 <!-- ko if: $parent.editMode() -->
                 <input id="mobileInput" aria-labelledby="mobileLabel" data-bind="ojComponent: {component: 'ojInputText', value: mobile, readOnly: !$parent.editMode() }">
                 <!-- /ko -->
@@ -88,7 +91,7 @@
                 </div>
               </div>
               <div class="demo-profile-item-content oj-flex-bar-middle">
-                <label id="homeLabel">Home</label>
+                <label id="homeLabel">Telefone Fixo</label>
 
                 <!-- ko if: $parent.editMode() -->
                 <input id="homeInput" aria-labelledby="homeLabel" data-bind="ojComponent: {component: 'ojInputText', value: home, readOnly: !$parent.editMode() }">
@@ -127,7 +130,7 @@
                 </div>
               </div>
               <div class="demo-profile-item-content oj-flex-bar-middle">
-                <label id="locationLabel">Location</label>
+                <label id="locationLabel">Endereço</label>
                 <!-- ko if: $parent.editMode() -->
                 <input id="locationInput" aria-labelledby="locationLabel" data-bind="ojComponent: {component: 'ojInputText', value: location.formattedAddress, readOnly: !$parent.editMode() }">
                 <!-- /ko -->

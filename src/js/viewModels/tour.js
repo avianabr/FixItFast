@@ -19,9 +19,9 @@ define(['knockout', 'jquery', 'ojs/ojknockout'], function(ko, $) {
 
     self.skipOrSignIn = ko.computed(function() {
       if(self.step() === 3) {
-        return 'Sign In';
+        return 'Entrar';
       }
-      return 'Skip';
+      return 'Pular';
     });
 
     self.startTour = function() {

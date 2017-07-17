@@ -30,14 +30,14 @@ function (oj, ko, $, data, mapping, PushClient, ConnectionDrawer) {
   // Root router configuration
   router.configure({
     'tour': { label: 'Tour', isDefault: true },
-    'incidents': { label: 'Incidents' },
-    'signin': { label: 'Sign In' },
+    'incidents': { label: 'Recursos' },
+    'signin': { label: 'Entrar' },
     'customers': { label: 'Customers' },
-    'profile': { label: 'Profile' },
-    'about': { label: 'About' },
-    'incident': { label: 'Incident' },
+    'profile': { label: 'Meus Dados' },
+    'about': { label: 'Sobre o DNIT' },
+    'incident': { label: 'Recurso' },
     'settings': { label: 'Settings' },
-    'createIncident': { label: 'Create an Incident' }
+    'createIncident': { label: 'Crie um Recurso' }
   });
 
   function AppControllerViewModel() {
@@ -336,7 +336,7 @@ function (oj, ko, $, data, mapping, PushClient, ConnectionDrawer) {
       }
     };
 
-    var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var monthNames = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
     var formatTimeStamp = function(timeString) {
 
